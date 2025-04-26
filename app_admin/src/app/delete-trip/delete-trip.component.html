@@ -1,0 +1,11 @@
+<div class="container" *ngIf="trip">
+    <h2>Delete Trip</h2>
+    <p>Are you sure you want to delete <strong>{{ trip.name }}</strong>?</p>
+    <p>This action cannot be undone.</p>
+    <button class="btn btn-danger" (click)="onDelete()">Delete</button>
+    <button class="btn btn-secondary ml-2" (click)="onCancel()">Cancel</button>
+  </div>
+  
+  <div *ngIf="!trip">
+    <p>{{ message }}</p>
+  </div>
