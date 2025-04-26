@@ -1,0 +1,5 @@
+<div class="container" *ngIf="!isLoggedIn()" style="text-align: center">Please login to continue</div><br>
+<div class="container">
+    <app-trip-listing></app-trip-listing>
+    <router-outlet></router-outlet>
+  </div>
