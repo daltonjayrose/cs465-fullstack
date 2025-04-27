@@ -17,12 +17,18 @@ A NoSQL MongoDB database was used because it is flexible and uses JSON, which in
 
 JavaScript Object Notation (JSON) and JavaScript are very different. JSON is a format for storing and transmitting data whereas JavaScript is a programming language. JSON is used to store and transmit our trip data from the backend and frontend components the project. For example, the frontend makes an API request to retrieve the JSON trip data and the backend retrieves that JSON trip data from the MongoDB database and passes it along to the frontend where it is then displayed. 
   
-**Provide instances in the full stack process when you refactored code to improve functionality and efficiencies, and name the benefits that come from reusable user interface (UI) components.**
+**Provide instances in the full stack process when you refactored code to improve functionality and efficiencies, and name the benefits that come from reusable user interface (UI) components.**  
 
+An initial version of the website utilized hardcoded trip information. By implementing the ability to retrieve and store trip information from a database, it became much easier to add new trips, modify existing trips, or delete trips from the website. Reusable user interface components allow you to develop functionality much more quickly by allowing you to reuse existing components instead of creating them from scratch. 
+  
 # Testing
 
-**Methods for request and retrieval necessitate various types of API testing of endpoints, in addition to the difficulties of testing with added layers of security. Explain your understanding of methods, endpoints, and security in a full stack application.**
+**Methods for request and retrieval necessitate various types of API testing of endpoints, in addition to the difficulties of testing with added layers of security. Explain your understanding of methods, endpoints, and security in a full stack application.**  
 
+Methods, endpoints, and security are important aspects of a full stack application that allow the frontend and backend to function. Methods are the HTTP methods which define the type of action being taken. A few example HTTP methods are GET, PUT, POST, and DELETE. Endpoints are the API URLs which the HTTP Methods target. A specified endpoint and HTTP method tell the application what to do. Security must be implemented to make sure only authorized users are using the API to make changes. In this case, JSON Web Tokens (JWT) were utilized. 
+  
 # Reflection
 
-**How has this course helped you in reaching your professional goals? What skills have you learned, developed, or mastered in this course to help you become a more marketable candidate in your career field?**
+**How has this course helped you in reaching your professional goals? What skills have you learned, developed, or mastered in this course to help you become a more marketable candidate in your career field?**  
+
+This course will be very useful in achieving my professional goals. By developing a full stack application in this course, I've gained valuable skills and experience. I've learned how to develop single-page applications, implement and utilize APIs, interact with a MongoDB database, and implement user authentication. These skills are extremely valuable in the field of software engineering and I am much more confident in my ability to start a career in software engineering after completing this course.
